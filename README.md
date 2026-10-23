@@ -176,7 +176,7 @@ If you access Claude through an employer's Teams or Enterprise plan, your employ
 
 Specific limitations to be aware of:
 
-- **Citation hallucination risk.** The skill instructs Claude to include source URLs and flag unverifiable identifiers, but hallucinated citations remain possible. Always click the links in the Sources Reviewed section and verify that the title and finding match what's described.
+- **Citation hallucination risk.** The skill instructs Claude to include source URLs and flag unverifiable identifiers, but hallucinated citations remain possible. Always click the links in the Sources Reviewed section and verify that the title and finding match what's described. Where Python and network access are available, the optional `scripts/verify_citations.py` checks every PubMed and PMC link against NCBI and prints the real first author, year, and title beside each citing line; it catches wrong or invented identifiers and misattributed authors, but not whether a finding is described accurately.
 - **Search stops when evidence is solid.** The skill works through a source hierarchy (Cochrane → guidelines → primary research → FDA → patient advocacy) but stops when the evidence base is sufficient to support the user's questions. For well-studied conditions with strong Cochrane and guideline coverage, lower-priority sources may be skipped. If you want to force a complete search through all source types, tell Claude explicitly: "Search all source types in the hierarchy even if you find strong evidence early."
 - **Search tool limitations.** Claude's web search tool doesn't support `site:` scoped queries, so the skill uses keyword strategies (e.g., `[condition] systematic review PubMed`) to surface results from target databases. This is less precise than searching PubMed or Cochrane directly. Users who want comprehensive PubMed coverage should connect the **PubMed MCP connector** and tell Claude to use it when searching medical literature.
 - **Not clinically validated.** This skill has not been reviewed by clinicians or evaluated in a clinical context. It is a structured reasoning aid, not a clinical instrument.
@@ -196,6 +196,7 @@ Specific limitations to be aware of:
 | `informed-patient/skills/informed-patient/references/classification-criteria.md`  | Classification frameworks clinicians use for symptom clusters, and the optional multi-system review |
 | `informed-patient/skills/informed-patient/references/output-template.md`          | The exact Health Evidence Review document template            |
 | `informed-patient/skills/informed-patient/references/decision-support.md`         | Optional option grid and readiness check when a treatment decision is on the table |
+| `informed-patient/skills/informed-patient/scripts/verify_citations.py`           | Optional check of PubMed/PMC links against NCBI (Python 3, standard library only) |
 | `EVALUATION.md`                                                                   | Test scenarios and pass criteria for verifying skill behavior |
 | `LICENSE.txt`                                                                     | CC-BY-4.0 license                                             |
 
