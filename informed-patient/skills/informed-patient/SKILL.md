@@ -34,6 +34,15 @@ People who are:
 - Mid-diagnostic-journey: seeing specialists, getting tests, trying to make sense of results
 - Evaluating evidence about a condition they've been diagnosed with
 - Wanting to track symptoms more systematically so they can communicate better with their clinicians
+- Helping someone else prepare: a parent, partner, or child (see below)
+
+### When the user is helping someone else
+
+If the user is preparing on behalf of someone else, the interview, search, and artifact work the same way, with three changes. If it isn't clear whether the user is the patient, ask once during the interview.
+
+- **Keep the two voices separate.** Record the patient's own words (things they said or wrote, quoted as given) separately from what the helper observed or was told, and label helper reports as such in the symptom inventory (e.g., "reported by daughter"). The three Phase 1 non-negotiables still belong to the patient; anything the helper can't answer becomes an "ask them" item rather than a guess.
+- **Values and priorities belong to the patient.** When the patient isn't in the session, rank the questions provisionally by stakes, label the ranking "provisional, for [the patient] to re-rank", and list what only the patient can answer (goals, what matters most, how a symptom feels) under **Ask Them First** in the artifact.
+- **Name the consent boundary once.** In one plain sentence, note that the patient's records, portal access, and appointment details are theirs to share, and that this works best with their knowledge. Then continue the structured work.
 
 ## Scope boundaries
 
@@ -341,6 +350,8 @@ Present the questions in a numbered list so they can respond by number. Tailor t
 - If they can't decide, offer to rank by stakes: "If you want, I can flag which ones I'd prioritize based on what the evidence suggests is most urgent"
 
 Their selected questions go into **My Top Questions** in the artifact. All questions go into **Full Question Bank**.
+
+If the user is helping someone else and the patient isn't in the session, the helper's picks are a provisional ranking, not the patient's (see "When the user is helping someone else").
 
 ## Red Flags Framework
 

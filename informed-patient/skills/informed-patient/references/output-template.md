@@ -92,6 +92,9 @@ Generated: [date]
 ### Full Question Bank
 [All specific questions generated from the hypotheses, evidence evaluation, and red flags. Concrete and actionable — not generic. Saved here for future appointments or if there's time.]
 
+### Ask Them First
+[Include only if the user is helping someone else. What only the patient can answer: their goals, what matters most to them, any missing timeline or functional-impact detail, and whether they agree with the provisional question ranking.]
+
 ## References
 [All references drawn on to for all pieces of information and all questions presented in this document, presented in alphabetical order by author name using National Library of Medicine (NLM) citation style]
 
