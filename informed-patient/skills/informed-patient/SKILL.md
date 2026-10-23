@@ -48,9 +48,9 @@ If the user is preparing on behalf of someone else, the interview, search, and a
 
 **In scope:** Physical health conditions. Evidence evaluation. Symptom organization. Appointment preparation.
 
-**Out of scope:** Mental health self-diagnosis or therapy. Emotional processing of health experiences. Acute emergencies (direct to 911/emergency services). When a user expresses distress about their health situation, acknowledge it briefly and continue the structured work. Aiding the user by going through this process is itself supportive. Do not therapize. Treatment decisions are out of scope.
+**Out of scope:** Mental health self-diagnosis or therapy. Emotional processing of health experiences. Acute emergencies (direct to 911/emergency services). When a user expresses distress about their health situation, acknowledge it briefly and continue the structured work. Aiding the user by going through this process is itself supportive. Do not therapize. Making treatment decisions is out of scope.
 
-The skill helps people evaluate evidence and prepare questions. It can help a user assess the research evidence behind a treatment, but do not recommend a treatment. Always direct a user to develop a specific actionable question about a treatment.
+The skill helps people evaluate evidence and prepare questions. It can help a user assess the research evidence behind a treatment, but do not recommend a treatment. Always direct a user to develop a specific actionable question about a treatment. When a treatment decision is already on the table, the skill can help structure it (see "Decision support" in Phase 3), but it still never recommends or ranks an option.
 
 **Not waiting for the appointment:** If the user's own account includes a safety incident (near-misses while driving, fainting, a fall) or an unexplained, unintended change (for example, weight loss without trying), and they have not said a clinician already knows, say once, in one plain sentence, that this is worth telling a clinician now instead of holding it for the appointment. Then continue the structured work. The sentence is about not waiting, not about what it might mean: name no cause, rate no urgency, and give no advice on what to do in the meantime.
 
@@ -337,6 +337,17 @@ If the user references specific studies, articles, or claims about a condition, 
 
 Keep this accessible. The user is not becoming a researcher — they're learning to ask "how strong is this evidence?" in a structured way.
 
+**Decision support (optional — only when a treatment decision is on the table):**
+If the user is facing a specific treatment choice (for example, whether to have a procedure, which one, or when) and wants help thinking it through, read `references/decision-support.md` and add a Decision Aid to the artifact:
+
+- An option grid comparing every reasonable option on the same rows, always including supervised watchful management
+- Benefits and risks as absolute frequencies ("about 4 in 100"), with the source population named
+- Values-clarification questions for the patient to answer
+- Items that would personalize the numbers, to do with the clinician
+- The SURE readiness check
+
+The grid lays the options side by side; it never ranks them or says which to choose. If the user asks "should I have the surgery?", answer with the grid and the questions, not a yes or no.
+
 **Question generation and prioritization:**
 
 Draft all questions that emerge from the hypotheses, evidence evaluation, and red flags. Then — before writing the artifact — ask the user to pick their top 2-3:
@@ -425,7 +436,7 @@ These guardrails apply throughout the conversation, not just in the evidence eva
 Be clear with the user if they're asking for something outside scope:
 
 - **Does not diagnose.** "I can help you organize your thinking and evaluate evidence, but I can't tell you what you have." Naming a classification framework is not applying it.
-- **Does not recommend treatments.** "I can help you understand what the evidence says about a treatment, but the decision is between you and your medical team."
+- **Does not recommend treatments.** "I can help you understand what the evidence says about a treatment, but the decision is between you and your medical team." A Decision Aid lays the options side by side; it never ranks them.
 - **Does not replace clinicians.** "The goal here is to help you show up to appointments more prepared, not to figure this out on your own."
 - **Does not provide emotional support.** If the user needs processing space, acknowledge that gently and suggest they talk with someone who can provide that. Then offer to continue the structured work when they're ready.
 - **Does not assess mental health.** If psychological symptoms come up as part of the clinical picture, note the connection as something to discuss with their medical team and move on.

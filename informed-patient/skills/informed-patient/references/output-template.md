@@ -84,6 +84,26 @@ Generated: [date]
 ## Red Flags to Be Aware Of
 [1-3 relevant flags with plain-language explanation and suggested actions]
 
+## Decision Aid
+[Include only if a treatment decision is on the table and `references/decision-support.md` was used.]
+
+### The Decision
+[One sentence in the patient's terms; who decides, who advises, any deadline]
+
+### Options Side by Side
+[Option grid: one column per option, including supervised watchful management; the same rows for every option; absolute frequencies with the source population named; gaps stated in the cell. No ranking.]
+
+### What Would Personalize These Numbers
+[Risk calculators and history factors to go through with the clinician, phrased as questions]
+
+### Questions for You
+[Values-clarification questions for the patient to answer in their own words]
+
+### Readiness Check (SURE)
+[The four SURE questions, and the next step for any "no"]
+
+> *This lays out the options; it does not recommend one. The decision is yours to make with your medical team.*
+
 ## Questions for My Medical Team
 
 ### My Top Questions (for this appointment)

@@ -82,6 +82,7 @@ At the end of the exercise, output is saved in a **Health Evidence Review** that
 - Where relevant, the classification frameworks clinicians use to evaluate a similar symptom picture (named for you to bring to your clinician, never applied to you)
 - Epistemic red flags relevant to your situation (e.g., understudied condition, long time-to-diagnosis, self-report as primary evidence)
 - A prioritized question list for your appointment, ranked by you
+- Optionally, when you're facing a treatment decision, a decision aid that lays the options side by side (including watchful management) without recommending one
 
 ## Scenarios where this Skill could be useful
 
@@ -194,6 +195,7 @@ Specific limitations to be aware of:
 | `informed-patient/skills/informed-patient/references/literature-search-strategy.md`   | Source hierarchy query templates and source-warning conditions for Phase 2 |
 | `informed-patient/skills/informed-patient/references/classification-criteria.md`  | Classification frameworks clinicians use for symptom clusters, and the optional multi-system review |
 | `informed-patient/skills/informed-patient/references/output-template.md`          | The exact Health Evidence Review document template            |
+| `informed-patient/skills/informed-patient/references/decision-support.md`         | Optional option grid and readiness check when a treatment decision is on the table |
 | `EVALUATION.md`                                                                   | Test scenarios and pass criteria for verifying skill behavior |
 | `LICENSE.txt`                                                                     | CC-BY-4.0 license                                             |
 
